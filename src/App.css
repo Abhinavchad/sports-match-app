@@ -84,3 +84,9 @@
 .time {
   color: #555;
 }
+.sidebar-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle; /* Align the sticker vertically with text */
+}
