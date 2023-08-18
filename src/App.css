@@ -43,7 +43,7 @@
 }
 
 .sidebar {
-  width: 200px;
+  width: 20%;
   background-color: #f2f2f2;
   padding: 20px;
 }
@@ -89,4 +89,16 @@
   height: 24px;
   margin-right: 10px;
   vertical-align: middle; /* Align the sticker vertically with text */
+}
+.sport-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.sport-details img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
