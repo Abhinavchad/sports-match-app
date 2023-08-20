@@ -1,0 +1,54 @@
+/* matchdisplay.css */
+
+.match-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: calc(100% - 240px); /* Subtract sidebar width */
+  }
+  
+  .match {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teams {
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10px;
+  }
+  
+  .location {
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .time {
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .view-details-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #0056b3;
+  }
+  
